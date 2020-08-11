@@ -1,0 +1,6 @@
+<h1>This is the show task page</h1>
+<h3><%= @task.title %>: <%= @task.details %></h3>
+
+<%= link_to "edit a task", edit_task_path(@task) %>
+<%= link_to "back to all tasks", tasks_path %>
+
